@@ -34,3 +34,67 @@ function Button({displayText}) {
 }
 
 ```
+
+### Instructions
+
+Checkpoint 1 Passed
+
+1. Explore the code in the code editor.
+
+Product.js contains the outline of a component responsible for displaying the products of an e-commerce site.
+
+App.js contains the top-level App component, which calls the Product component with three pieces of information: name, price, and rating.
+
+However, the Product component does not accept props.
+
+In Product.js, modify the Product component so that it accepts props in the function definition.
+
+In the line that defines the function, include props as a parameter.
+
+For example, a Card component that accepts props looks like this:
+
+function Card(props) {
+
+}
+
+Checkpoint 2 Passed
+2. Next, display the name of the product in the <h1></h1> tag by injecting the name value from props.
+
+Hint
+
+The syntax to extract a property from the props object is:
+
+props.nameOfProp
+
+Make sure to put it between the <h1> tags!
+
+Checkpoint 3 Passed
+
+3. For the <h2></h2> tag, inject the price value from props.
+
+Hint
+
+The syntax to extract a property from the props object is:
+
+props.nameOfProp
+
+Make sure to put it between the <h2> tags!
+
+Checkpoint 4 Passed
+
+4. Finish it off by injecting the rating value from props within the <h3></h3> tags.
+
+Hint
+
+The syntax to extract a property from the props object is:
+
+props.nameOfProp
+
+Make sure to put it between the <h3> tags!
+
+Checkpoint 5 Passed
+
+5. In App.js, test out your code by tweaking the value of name, price, and rating.
+
+Click Run. Once the browser refreshes, new information about a product should appear on the screen.
+
